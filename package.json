@@ -1,0 +1,12 @@
+{
+  "name": "@hudoro/idate",
+  "version": "0.0.1",
+  "description": "Convert any date format to Indonesian date format",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prawito Hudoro",
+  "license": "ISC"
+}
