@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es2016",
+    "target": "es5",
     "module": "commonjs",
     "declaration": true,
     "declarationMap": true,
@@ -19,5 +19,5 @@
     "forceConsistentCasingInFileNames": true
   },
   "exclude": ["node_modules"],
-  "include": ["src"]
+  "include": ["src", "tests", "index.test.ts"]
 }
