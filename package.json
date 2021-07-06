@@ -1,6 +1,6 @@
 {
   "name": "@hudoro/idate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert any date format to Indonesian date format",
   "main": "dist/index.js",
   "types": "dist",
