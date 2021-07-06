@@ -6,11 +6,18 @@
   "types": "dist",
   "type": "module",
   "scripts": {
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "test": "jest"
   },
   "author": "Prawito Hudoro",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-typescript": "^7.14.5",
+    "@types/jest": "^26.0.23",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6",
     "typescript": "^4.3.5"
   }
 }
