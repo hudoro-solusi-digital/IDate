@@ -1,7 +1,7 @@
-import convertDateFromRangeDate from "./core/dayNumberToDay";
+import dayNumberToDay from "./core/dayNumberToDay";
 import { DayInNumberType } from "./types";
 
 export default function IDate(date: DayInNumberType) {
-  const result = convertDateFromRangeDate(date);
+  const result = dayNumberToDay(date);
   return result;
 }
